@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . '/TilingWall/TilingWall.php';
+use TilingWall\TilingWall;
 
 class TilingWallClient
 {
