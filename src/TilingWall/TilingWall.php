@@ -40,7 +40,7 @@ class TilingWall
 
 	public function setPrecision($level)
 	{
-		$this->precision = $this->precision_config[max(0, min(count($this->precision_config), $level))];
+		$this->precision = $this->precision_config[max(0, min(count($this->precision_config) - 1, $level))];
 	}
 
 	public function __construct(array $targets)
